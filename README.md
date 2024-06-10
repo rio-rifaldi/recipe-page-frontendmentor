@@ -1,36 +1,89 @@
-# React + TypeScript + Vite + Tailwind
+# Frontend Mentor - Recipe page solution
 
-This template provides a minimal setup to get React working in Vite, TypeScript, and Tailwind.
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Getting Started 🚀
+## Table of contents
 
-1. Clone the repo.
-2. Install dependencies: `pnpm install`
-3. Start the dev server: `pnpm dev`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### Or
+## Overview
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmoinulmoin%2Fvite-react-tailwind-starter)
+<center  >
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
 
-## Expanding the ESLint configuration
+  </tr>
+  <tr>
+    <td><img src="preview/mobile.png" width=370></td>
+    <td><img src="preview/tablet.png" width=670 ></td>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  </tr>
+ </table>
+ </center>
 
-- Configure the top-level `parserOptions` property like this:
+### Links
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Vite](https://vitejs.dev/) - Frontend Tooling
+- [Shadcn-ui](https://ui.shadcn.com) - UI components
+- [TailwindCss](https://tailwindcss.com/) - For styles
+
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```css
+.proud-of-this-css {
+	color: papayawhip;
+}
+```
 
-## License 📄
+```js
+const proudOfThisFunc = () => {
+	console.log("🎉");
+};
+```
 
-[MIT License](https://github.com/moinulmoin/vite-react-tailwind-starter/blob/master/LICENSE)
+### Continued development
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+### Useful resources
+
+- [stackoverflow](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md) - This helped me for centered images on markdown
+- [medium](https://medium.com/@josephat94/building-a-simple-react-hook-to-detect-screen-size-404a867fa2d2) - This tell me how to create custome hooks to detect screen size
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)

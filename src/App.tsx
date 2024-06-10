@@ -1,21 +1,23 @@
-import { buttonVariants } from "./components/ui/button";
+import Head from "./components/Head";
+import Ingredients from "./components/Ingredients";
+import Preparation from "./components/Preparation";
+import Instructions from "./components/Instructions";
+import Nutrition from "./components/Nutrition";
+import Screensize from "./components/Screensize";
 
 function App() {
-  return (
-    <main className="flex flex-col items-center justify-center min-h-screen space-y-20">
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Vite, React, Shadcn-ui minimal starter
-      </h1>
-      <a
-        href="https://github.com/moinulmoin/vite-react-tailwind-starter"
-        target="_blank"
-        rel="noreferrer"
-        className={buttonVariants()}
-      >
-        ⭐️ on GitHub
-      </a>
-    </main>
-  );
+	return (
+		<main className=" lg:py-12 ">
+			{/* <Screensize /> */}
+			<div className="max-w-screen-lg mx-auto lg:p-16  lg:rounded-3xl bg-cus_White">
+				<Head />
+				<Preparation />
+				<Ingredients />
+				<Instructions />
+				<Nutrition />
+			</div>
+		</main>
+	);
 }
 
 export default App;
