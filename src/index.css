@@ -86,10 +86,10 @@
 @font-face {
 	font-family: Outfit;
 	font-weight: 700, 600, 400;
-	src: url("font/Outfit.ttf");
+	src: url("./assets/font/Outfit.ttf");
 }
 @font-face {
 	font-family: YoungSerif;
 	font-weight: 700;
-	src: url("font/YoungSerif-Regular.ttf");
+	src: url("./assets/font/YoungSerif-Regular.ttf");
 }

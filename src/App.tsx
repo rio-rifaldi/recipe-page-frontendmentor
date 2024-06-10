@@ -1,9 +1,8 @@
 import Head from "./components/Head";
 import Ingredients from "./components/Ingredients";
-import Preparation from "./components/Preparation";
 import Instructions from "./components/Instructions";
 import Nutrition from "./components/Nutrition";
-import Screensize from "./components/Screensize";
+import Preparation from "./components/Preparation";
 
 function App() {
 	return (
